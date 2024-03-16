@@ -3,6 +3,6 @@
 from math import floor
 
 
-def floor(n) -> float:
+def floor(n: float) -> float:
     """ Get the floor of n"""
     return floor(n)
