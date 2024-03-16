@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """ Get the floor of n"""
-from math import floor
+import math
 
 
 def floor(n: float) -> float:
     """ Get the floor of n"""
-    return floor(n)
+    return math.floor(n)
