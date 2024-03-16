@@ -11,6 +11,7 @@ def safely_get_value(
     key: Any,
     default: Union[T, None] = None
 ) -> Union[Any, T]:
+    """ Safely get the value and duck type"""
     if key in dct:
         return dct[key]
     else:
